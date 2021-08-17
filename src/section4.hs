@@ -35,7 +35,7 @@ snd (_, y) = y
 
 test :: [Char] -> Bool
 test ['a', _, _] = True
-test _ = False
+test _           = False
 
 add :: Int -> (Int -> Int)
 add = \x -> (\y -> x + y)
